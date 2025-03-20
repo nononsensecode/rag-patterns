@@ -39,7 +39,7 @@ prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "You are an expert in answering questions based on a context received from a document. The context is {context}",
+            "You are an expert in answering questions based only on a context received from a document. The context is {context}. Do not make up information. If you do not know the answer, say 'I don't know'.",
         ),
         (
             "human",

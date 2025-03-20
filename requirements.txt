@@ -6,3 +6,5 @@ pypdf
 sentence-transformers
 langchain-huggingface
 faiss-cpu
+scikit-learn
+pydantic
